@@ -1,0 +1,13 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+.mat-elevation-z2 {
+  box-shadow: none;
+}
+.post-card {
+  cursor: pointer;
+  background-color: lightgray;
+  border-color: lightgray;
+}
